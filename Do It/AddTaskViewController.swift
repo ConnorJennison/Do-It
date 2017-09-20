@@ -20,6 +20,7 @@ class AddTaskViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    //Do the work to add a task to the list
     @IBAction func addTapped(_ sender: Any) {
         //Create a new function that adds task to list
         

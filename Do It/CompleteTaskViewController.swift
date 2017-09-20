@@ -10,9 +10,11 @@ import UIKit
 
 class CompleteTaskViewController: UIViewController {
 
+    //Set up the initial task variable to use
     var task: Task? = nil
     
     @IBOutlet weak var taskNameLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,7 +26,9 @@ class CompleteTaskViewController: UIViewController {
         }
     }
 
+    //Function used when user wants to delete/complete a task
     @IBAction func completeTapped(_ sender: AnyObject) {
+        
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
         context.delete(task!)
