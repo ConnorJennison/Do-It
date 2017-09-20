@@ -13,6 +13,8 @@
 		AE4BAD371F70892500282B96 /* Do_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE4BAD351F70892500282B96 /* Do_It.xcdatamodeld */; };
 		AE4BAD391F70892500282B96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE4BAD381F70892500282B96 /* Assets.xcassets */; };
 		AE4BAD3C1F70892500282B96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE4BAD3A1F70892500282B96 /* LaunchScreen.storyboard */; };
+		AE7CAF121F72C2CD003FC0AE /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CAF111F72C2CD003FC0AE /* AddTaskViewController.swift */; };
+		AE7CAF161F72CBF3003FC0AE /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7CAF151F72CBF3003FC0AE /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		AE4BAD381F70892500282B96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE4BAD3B1F70892500282B96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE4BAD3D1F70892500282B96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7CAF111F72C2CD003FC0AE /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
+		AE7CAF151F72CBF3003FC0AE /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 			isa = PBXGroup;
 			children = (
 				AE4BAD2E1F70892500282B96 /* AppDelegate.swift */,
+				AE7CAF111F72C2CD003FC0AE /* AddTaskViewController.swift */,
 				AE4BAD301F70892500282B96 /* ViewController.swift */,
+				AE7CAF151F72CBF3003FC0AE /* CompleteTaskViewController.swift */,
 				AE4BAD321F70892500282B96 /* Main.storyboard */,
 				AE4BAD381F70892500282B96 /* Assets.xcassets */,
 				AE4BAD3A1F70892500282B96 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE7CAF121F72C2CD003FC0AE /* AddTaskViewController.swift in Sources */,
+				AE7CAF161F72CBF3003FC0AE /* CompleteTaskViewController.swift in Sources */,
 				AE4BAD371F70892500282B96 /* Do_It.xcdatamodeld in Sources */,
 				AE4BAD311F70892500282B96 /* ViewController.swift in Sources */,
 				AE4BAD2F1F70892500282B96 /* AppDelegate.swift in Sources */,
@@ -308,6 +316,7 @@
 				AE4BAD421F70892500282B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
